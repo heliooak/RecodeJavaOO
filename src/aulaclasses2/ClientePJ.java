@@ -11,7 +11,7 @@ public class ClientePJ extends ClienteII {
 	public ClientePJ(String nome, String telefone, String cnpj, String ie) {
 		super(nome, telefone);
 		this.cnpj = cnpj;
-		this.ie = ie;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+		this.ie=ie;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
 	}
 	public String getCnpj() {
 		return cnpj;
